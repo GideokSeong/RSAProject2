@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Specify File names</title>
+</head>
+<body>
+
+    <form method="post">
+        {% csrf_token %}
+        <br>Type file name for public key and private key:<input type="text" name="text1"></br>
+        <br><input type="submit" name="submitID" value="Create files"></br>
+    </form>
+    <br><a href="javascript:history.back()">Go Back</a></br>
+
+</body>
+</html>

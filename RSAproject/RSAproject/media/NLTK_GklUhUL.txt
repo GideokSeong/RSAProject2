@@ -1,0 +1,10 @@
+https://pythonspot.com/category/nltk/
+https://medium.com/analytics-vidhya/pos-tagging-using-conditional-random-fields-92077e5eaa31
+https://github.com/charlieg/A-Smattering-of-NLP-in-Python
+https://www.nltk.org/book/ch07.html#fig-ie-architecture
+https://towardsdatascience.com/overview-of-text-similarity-metrics-3397c4601f50
+https://pythonprogramming.net/chunking-nltk-tutorial/
+https://www.nltk.org/book/ch08.html
+
+
+Grammer analysis using nltk

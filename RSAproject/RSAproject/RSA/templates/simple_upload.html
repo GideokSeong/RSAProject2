@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Specify File names</title>
+</head>
+<body>
+
+    <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    Upload a file to be encrypted:<input type="file" name="myfile">
+        <br>Upload a public key file to encrypt:<input type="file" name="pubkeyfile"></br>
+        <br><button type="submit">Upload files to be encrypted</button></br>
+    </form>
+
+  {% if uploaded_file_url %}
+    <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+  {% endif %}
+    <form>
+        <br>Encrypted File name: {{filename}}</br>
+    </form>
+
+    <form>
+        <br>Encrypted Message:{{encrypted}}</br>
+    </form>
+
+    <br><a href="javascript:history.back()">Go Back</a></br>
+
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<!-- howdy/templates/about.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RSA</title>
+    </head>
+    <body>
+        <h1>Welcome to the about page</h1>
+        <form action="/action3">
+            <button>Specify file name for a public key and a private key</button>
+        </form>
+        <form action="/action4">
+            <button>File upload to encrypt</button>
+        </form>
+        <form action="/action5">
+            <button>File upload to decrypt</button>
+        </form>
+        {% csrf_token %}
+    <a href="/">Go back home</a>
+    </body>
+</html>
